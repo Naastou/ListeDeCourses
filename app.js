@@ -132,6 +132,7 @@ function removeFromLocalStorage(id) {
       return item;
     }
   });
+  localStorage.setItem("list", JSON.stringify(items));
 }
 
 // édite dans le local storage
