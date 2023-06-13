@@ -1,0 +1,142 @@
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: url("./food-3074026_1280.jpg") no-repeat center/cover fixed;
+  color: gray;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.section {
+  padding: 5rem 0;
+  min-height: 100vh;
+}
+.list-container,
+.shopping-form {
+  width: 100%;
+  max-width: 620px;
+  margin: 5rem auto;
+  background: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.alert {
+  margin-bottom: 1rem;
+  height: 1.25rem;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.alert-danger {
+  color: brown;
+  background: #ecd9db;
+}
+.alert-success {
+  color: green;
+  background: #c0d5c5;
+}
+
+.title {
+  text-transform: capitalize;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 100%;
+  margin-top: 0;
+}
+#shopping {
+  flex: 1;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  background: rgb(203, 216, 228);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-color: transparent;
+  font-size: 1rem;
+}
+.submit-btn {
+  background: rgb(50, 107, 123);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-right: 1rem;
+  transition: all 0.3s linear;
+}
+.submit-btn:hover {
+  background: white;
+  color: rgb(50, 107, 123);
+  border: 1px solid rgb(50, 107, 123);
+}
+.list-container {
+  padding-bottom: 0.5rem;
+  visibility: hidden;
+}
+.show-listContainer {
+  visibility: visible;
+}
+.shoppingItem {
+  background: rgb(217, 230, 240);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 20px;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s linear;
+}
+.shoppingItem:hover {
+  background: rgb(203, 216, 228);
+}
+
+.text {
+  margin: 0;
+  text-transform: capitalize;
+  color: rgb(50, 107, 123);
+}
+.edit-btn,
+.delete-btn,
+.clear-btn {
+  color: green;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+}
+.delete-btn {
+  color: red;
+}
+
+.clear-btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+  color: red;
+  letter-spacing: 5px;
+  border-radius: 20px;
+  transition: all 0.3s linear;
+}
+.clear-btn:hover {
+  background: red;
+  color: white;
+  font-weight: bold;
+}

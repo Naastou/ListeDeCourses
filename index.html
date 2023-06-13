@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet liste des courses</title>
+    <!-- awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- javascript -->
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <section class="section">
+      <form class="shopping-form">
+        <p class="alert"></p>
+        <h3 class="title">Liste des courses</h3>
+        <div class="form-control">
+          <input type="text" id="shopping" placeholder="Ex: poissons" />
+          <button type="submit" class="submit-btn">ajouter</button>
+        </div>
+      </form>
+      <div class="list-container">
+        <div class="shoppingList">
+          <!-- <article class="shoppingItem">
+            <p class="item">poisson</p>
+            <div class="btn-container">
+              <button type="button" class="edit-btn">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button type="button" class="delete-btn">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </article>
+          <article class="shoppingItem">
+            <p class="item">oeufs</p>
+            <div class="btn-container">
+              <button type="button" class="edit-btn">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button type="button" class="delete-btn">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </article> -->
+        </div>
+        <button type="button" class="clear-btn">Vider la liste</button>
+      </div>
+    </section>
+  </body>
+</html>
